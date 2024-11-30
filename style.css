@@ -1,0 +1,63 @@
+/* Cores principais */
+:root {
+    --pastel-roxo: #d1c4e9;
+    --pastel-azul: #bbdefb;
+    --pastel-rosa: #f8bbd0;
+}
+
+/* Estilos personalizados */
+body {
+    background-color: #fff;
+    font-family: 'Arial', sans-serif; /* Fonte padrão para o restante do site */
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--pastel-roxo);
+}
+
+header {
+    background: var(--pastel-roxo);
+    color: #fff;
+}
+
+.navbar {
+    background: var(--pastel-azul);
+}
+
+.banner {
+    background: var(--pastel-rosa);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: var(--pastel-azul);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 599px) {
+    /* Custom mobile styles */
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) and (max-width: 1023px) {
+    /* Custom tablet styles */
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    /* Custom desktop styles */
+}
